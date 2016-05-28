@@ -1,0 +1,10 @@
+/* 
+**	-	hoja de estilos de gook 21 de mayo de 2016
+**/
+@font-face{
+	font-family: "Signika-Light";
+	src: url("../fonts/Signika-Light.ttf");
+}
+.gui-principal{
+	margin-top: 60px;
+}
