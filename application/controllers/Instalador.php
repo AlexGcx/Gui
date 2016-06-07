@@ -234,15 +234,13 @@ class Instalador extends CI_Controller {
 						$this->load->view('panel-administracion/instalador/gui-ensamblador-instalador', $datos);
 					break;
 					case true:
-						$this->load->library('encrypt');
 						$this->crear_tabla_usuarios();
 						$this->load->model('Instalador_model', 'instalador', true);
 						$temp = $this->input->post();
 						unset($temp['usu_confirmar_clave']);
 						$temp_datos = $temp;
 						$temp_datos['usu_acceso'] = "1";
-						$usu_clave = $this->input->post("usu_clave");
-						$temp_datos['usu_clave'] = $this->encrypt->encode($usu_clave);
+						$temp_datos['usu_clave'] = md5($this->input->post('usu_clave'));
 						$this->instalador->almacenar_datos_usuarios($temp_datos);
 						if (is_dir("application/views/panel-administracion/instalador")) {
 							rename("application/views/panel-administracion/instalador", "application/views/panel-administracion/instalador-");

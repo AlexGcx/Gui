@@ -2,7 +2,7 @@
 	<script src="<?php echo base_url('dist/js/jquery-2.2.4.js') ?>"></script>
 	<script src="<?php echo base_url('dist/js/uikit.js') ?>"></script>
 	<script src="<?php echo base_url('dist/js/components/tooltip.min.js') ?>"></script>
-	<script src="<?php echo base_url('dist/js/gui-instalador.js') ?>"></script>
+	<script src="<?php echo base_url('dist/js/cms-instalador.js') ?>"></script>
 	<?php  
 		if( isset($js) and !empty($js) ){
 			foreach ($js as $key => $value) {

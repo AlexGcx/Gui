@@ -1,5 +1,5 @@
 <div class="uk-container uk-animation-slide-right">
-	<div class="uk-grid gui-contenedor">
+	<div class="uk-grid cms-contenedor">
 		<div class="uk-width-1-1">
 		<?php echo form_open("", "class='uk-form'"); ?>
 			<p class="uk-text-success"><img src="<?php echo base_url('dist/img/soporte.png') ?>" width="64px" align="center"> ¡Excelente la conexión con el servidor fue exitosa!.</p>

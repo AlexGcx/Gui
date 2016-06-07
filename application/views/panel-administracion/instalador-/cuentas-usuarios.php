@@ -1,5 +1,5 @@
 <div class="uk-container">
-	<div class="uk-grid gui-contenedor uk-animation-slide-top">
+	<div class="uk-grid cms-contenedor uk-animation-slide-top">
 		<div class="uk-width-medium-1-1">
 			<h3><strong>Cuentas de usuarios</h3>
 			<p class="uk-text-success"><img src="<?php echo base_url('dist/img/soporte.png') ?>" width="64px" align="center"> Listo ya casi termínanos, solo necesitas crear una cuenta de usuario para ingresar a la aplicación.</p>

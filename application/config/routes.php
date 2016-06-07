@@ -49,7 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'Panel_administracion';
+$route['default_controller'] = 'Tienda';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['instalacion'] = 'instalador';
@@ -58,3 +58,8 @@ $route['seleccionar-base-datos'] = 'instalador/seleccionar_base_datos';
 $route['informacion-cms'] = 'instalador/informacion_cms';
 $route['usuarios'] = 'instalador/usuarios';
 $route['finalizacion'] = 'instalador/finalizacion';
+$route['iniciar-sesion'] = 'panel_administracion/index';
+$route['escritorio'] = 'panel_administracion/escritorio';
+$route['desconectar'] = 'panel_administracion/desconectar';
+$route['categorias'] = 'categorias_administracion';
+$route['eliminar-categorias'] = 'categorias_administracion/eliminar_categorias';

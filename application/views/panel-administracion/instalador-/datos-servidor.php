@@ -1,4 +1,4 @@
-<div class="uk-container gui-contenedor uk-animation-slide-top">
+<div class="uk-container cms-contenedor uk-animation-slide-top">
 	<div class="uk-grid">
 		<div class="uk-width-1-1">
 			<?php if(isset($_GET["error"]) and $_GET["error"] == true){ ?>

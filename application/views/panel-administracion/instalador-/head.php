@@ -7,9 +7,17 @@
 	<!-- titulo de la pagina a cargar -->
 	<title><?php echo $titulo ?></title>
 	<!-- inicio de estilos css -->
-	<link rel="icon" type="text/css" href="<?php echo base_url('dist/img/logos/gui-128.png') ?>">
+	<link rel="icon" type="text/css" href="<?php echo base_url('dist/img/logos/gui-32.png') ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('dist/css/uikit.css') ?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('dist/css/gook.css') ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('dist/css/cms.css') ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('dist/css/cms-instalador.css') ?>">
+	<?php  
+		if( isset($estilos) and !empty($estilos) ){
+			foreach ($estilos as $key => $value) {
+				echo "<link rel='stylesheet' type='text/css' href='".base_url($value)."' />".chr(10);
+			}
+		}
+	?>
 	<!-- fin de estilos css -->
 </head>
 <body>

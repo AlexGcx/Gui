@@ -1,4 +1,4 @@
-<div class="uk-container gui-contenedor uk-animation-slide-left">
+<div class="uk-container cms-contenedor uk-animation-slide-left">
 	<div class="uk-grid">
 		<div class="uk-width-1-1">
 			<h3><img src="<?php echo base_url('dist/img/soporte.png') ?>" width="64px" align="center"> ¿Hola que tal? bienvenido a la instalación de <strong><?php echo NOMBRE_APLICACION ?>.</strong></h3>
